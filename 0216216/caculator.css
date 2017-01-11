@@ -1,0 +1,110 @@
+.caculator{
+    width: 570px;
+    height: 280px;
+    background-color: #0EAF6C;
+    border: 3px #248232 solid;
+    border-radius:8px;
+    margin: 10px;
+}
+.title{
+    text-align: center;
+    padding-top: 0px;
+    margin: 8px;
+    color: #F77185;
+    font-family: sans-serif;
+}
+.display{
+    margin: 10px;
+    padding: 5px;
+    border: 2px #9DBF9E solid;
+    font-family: sans-serif;
+    color:#9DBF9E;
+    font-weight: bold;
+    border-radius:8px;
+    background-color: #E0E5D5;
+}
+.display-sub{
+    margin: 10px;
+    padding: 5px;
+    border: 2px #EDB9A3 solid;
+    font-family: sans-serif;
+    color:#8B1E3F;
+    font-weight: bold;
+    border-radius:8px;
+    background-color: #EDB9A3;
+}
+.convert{
+    margin: 5px;
+}
+.value{
+    width:160px;
+    height: 18px;
+    text-align: right;
+    float: right;
+}
+.btn-group{
+    padding: 5px;
+    width:100%;
+}
+.btn-normal {
+    outline: medium none;
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    text-align: center;
+	font-family:sans-serif;
+	font-weight:bold;
+	border-radius:7px;
+	border:0px solid #737373;
+	background-color:#EDB9A3;
+	color:#8B1E3F;
+	display:inline-block;
+}.btn-normal:hover {
+	background-color:#F77185;
+}.btn-normal:active {
+	background-color:#F06543;
+}.btn-normal:disabled {
+	background-color:#AAAAAA;
+    color:#E0E5D5;
+}
+
+.convert-normal {
+    outline: medium none;
+    width: 35px;
+    height: 20px;
+    padding: 0px;
+    text-align: center;
+	font-family:sans-serif;
+	font-weight:bold;
+	border-radius:5px;
+	border:0px solid #737373;
+	background-color:#F39B6D;
+	color:#8B1E3F;
+	display:inline-block;
+}.convert-normal:hover {
+	background-color:#F77185;
+}.convert-normal:disabled {
+	background-color:#F06543;
+}
+
+.btn-mark {
+    outline: medium none;
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    text-align: center;
+	font-family:sans-serif;
+	font-weight:bold;
+	border-radius:7px;
+	border:0px solid #737373;
+	background-color:#9CB380;
+	color:#073B3A;
+	display:inline-block;
+}.btn-mark:hover {
+	background-color:#73A580;
+}.btn-mark:active {
+	background-color:#81C14B;
+}.btn-mark:disabled {
+	background-color:#AAAAAA;
+    color:#E0E5D5;
+}
